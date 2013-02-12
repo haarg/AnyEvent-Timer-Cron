@@ -105,6 +105,8 @@ L<DateTime::Set> object.
 
 Required.  The callback to call for the cron events.
 
+=back
+
 =head1 SEE ALSO
 
 =over 4
