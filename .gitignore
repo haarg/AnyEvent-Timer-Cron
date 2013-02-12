@@ -11,6 +11,6 @@ cover_db
 nytprof*
 /inc/
 README
-/AnyEvnet-Timer-Cron-*
+/AnyEvent-Timer-Cron-*
 /Distar
 /MANIFEST.SKIP
