@@ -1,4 +1,6 @@
 Revision history for AnyEvent-Timer-Cron
 
+  - correct perl prerequisite
+
 0.001000 - 2013-02-11
   - initial release
