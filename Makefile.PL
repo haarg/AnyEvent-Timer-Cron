@@ -21,13 +21,13 @@ my %META = (
   },
   resources => {
     repository => {
-      repository => 'git://github.com/haarg/AnyEvent-Timer-Cron.git',
-      homepage => 'http://github.com/haarg/AnyEvent-Timer-Cron',
+      url => 'git://github.com/haarg/AnyEvent-Timer-Cron.git',
+      web => 'http://github.com/haarg/AnyEvent-Timer-Cron',
       type => 'git',
     },
     bugtracker => {
-        mailto => 'bug-AnyEvent-Timer-Cron@rt.cpan.org',
-        web => 'https://rt.cpan.org/Public/Dist/Display.html?Name=AnyEvent-Timer-Cron',
+      mailto => 'bug-AnyEvent-Timer-Cron@rt.cpan.org',
+      web => 'https://rt.cpan.org/Dist/Display.html?Name=AnyEvent-Timer-Cron',
     },
     license => [ 'http://dev.perl.org/licenses/' ],
   },
