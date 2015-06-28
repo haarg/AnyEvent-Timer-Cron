@@ -1,5 +1,8 @@
 Revision history for AnyEvent-Timer-Cron
 
+  - correct links in metadata
+  - add x_static_install to metadata
+
 0.001001 - 2015-04-16
   - correct perl prerequisite
 
