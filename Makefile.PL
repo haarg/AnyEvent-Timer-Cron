@@ -35,6 +35,7 @@ my %META = (
     directory => [ 't', 'xt' ]
   },
   dynamic_config => 0,
+  x_static_install => 1,
 );
 
 my %MM_ARGS = (
