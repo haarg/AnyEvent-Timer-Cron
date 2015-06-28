@@ -1,5 +1,6 @@
 Revision history for AnyEvent-Timer-Cron
 
+0.001002 - 2015-06-28
   - correct links in metadata
   - add x_static_install to metadata
 
