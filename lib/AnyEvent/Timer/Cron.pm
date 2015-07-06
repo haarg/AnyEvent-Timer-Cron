@@ -12,6 +12,7 @@ use DateTime::Event::Cron;
 use namespace::clean;
 
 has 'cb' => (is => 'ro', required => 1);
+has 'time_zone' => (is => 'ro');
 has '_cron' => (
     is => 'ro',
     required => 1,
@@ -41,6 +42,7 @@ sub create_timer {
     my $self = shift;
     weaken $self;
     my $now = DateTime->from_epoch(epoch => AnyEvent->now);
+    $now->set_time_zone( $self->time_zone ) if $self->time_zone;
     my $next = $self->next_event($now);
     return
         if not $next;
@@ -57,6 +59,7 @@ sub create_timer {
 sub next_event {
     my $self = shift;
     my $now = shift || DateTime->from_epoch(epoch => AnyEvent->now);
+    $now->set_time_zone( $self->time_zone ) if $self->time_zone;
     $self->_cron->($now);
 }
 
@@ -104,6 +107,10 @@ L<DateTime::Set> object.
 =item cb
 
 Required.  The callback to call for the cron events.
+
+=item time_zone
+
+A cron rule will be calculated under the specified time zone.
 
 =back
 
