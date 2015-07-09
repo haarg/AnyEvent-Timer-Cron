@@ -130,7 +130,7 @@ haarg - Graham Knop (cpan:HAARG) <haarg@haarg.org>
 
 =head2 CONTRIBUTORS
 
-None yet.
+keedi - Keedi Kim (cpan:KEEDI) <keedi@cpan.org>
 
 =head1 COPYRIGHT
 
