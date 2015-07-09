@@ -1,7 +1,7 @@
 package AnyEvent::Timer::Cron;
 use Moo;
 
-our $VERSION = '0.001002';
+our $VERSION = '0.002000';
 $VERSION = eval $VERSION;
 
 use AnyEvent;
