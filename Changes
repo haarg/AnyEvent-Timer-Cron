@@ -1,5 +1,6 @@
 Revision history for AnyEvent-Timer-Cron
 
+0.002000 - 2015-07-09
   - calculate cron syntax under the specified time zone
 
 0.001002 - 2015-06-28
