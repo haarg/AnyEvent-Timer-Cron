@@ -94,7 +94,7 @@ AnyEvent's standard conventions for timer lifetime.
 =head2 new( cron => $cron, cb => sub {} )
 
 Creates a new cron timer.  The callback will be called continually
-according to the cron rules until the object is destroted.
+according to the cron rules until the object is destroyed.
 
 =over 4
 
