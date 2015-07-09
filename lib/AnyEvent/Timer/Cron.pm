@@ -110,7 +110,8 @@ Required.  The callback to call for the cron events.
 
 =item time_zone
 
-A cron rule will be calculated under the specified time zone.
+A cron rule will be calculated under the specified time zone.  If not specified,
+events will be calculated using UTC.
 
 =back
 
